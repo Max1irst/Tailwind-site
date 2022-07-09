@@ -14,7 +14,7 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body class="scroll-smooth">
     <header>
         <section class="container-xl w-full h-[38.75rem] flex flex-row justify-between bg-[#f7fafc]">
             <div class="w-1/2 pl-12 pt-8 pr-20">
@@ -67,9 +67,10 @@
     </header>
     <main>
         <section class="container-xl w-full h-[30.625rem]">
-            <div class="flex flex-row items-center justify-evenly px-12 py-24">
-                <div class="flex flex-col justify-between w-80 h-[16.125rem] items-center">
-                    <span>
+            <div class="flex flex-row items-center justify-evenly px-12 py-24 ">
+                <div
+                    class="flex flex-col justify-evenly w-80 h-[16.125rem] items-center hover:scale-110 transition-all">
+                    <span class="bg-[#f7fafc] w-16 h-16 flex items-center justify-center rounded-full">
                         <img class="w-8" src="./images/icons/security.svg" alt="icon">
                     </span>
                     <span class="font-bold text-xl">
@@ -80,11 +81,13 @@
 
                     </p>
                     <span>
-                        <a href="#">Learn More</a>
+                        <a class="text-[#8344ff] hover:text-[#53417a] transition-all" href="#">Learn More <img
+                                class="w-4 h-4 inline" src="./images/icons/arrow.svg" alt="arrow"></a>
                     </span>
                 </div>
-                <div class="flex flex-col justify-between w-80 h-[16.125rem] items-center">
-                    <span>
+                <div
+                    class="flex flex-col justify-evenly w-80 h-[16.125rem] items-center hover:scale-110 transition-all">
+                    <span class="bg-[#f7fafc] w-16 h-16 flex items-center justify-center rounded-full">
                         <img class="w-8" src="./images/icons/headphones.svg" alt="icon">
                     </span>
                     <span class="font-bold text-xl">
@@ -94,11 +97,13 @@
                         We strictly only deal with vendors that provide top notch security.
                     </p>
                     <span>
-                        <a href="#">Learn More</a>
+                        <a class="text-[#8344ff] hover:text-[#53417a] transition-all" href="#">Learn More <img
+                                class="w-4 h-4 inline" src="./images/icons/arrow.svg" alt="arrow"></a>
                     </span>
                 </div>
-                <div class="flex flex-col justify-between w-80 h-[16.125rem] items-center">
-                    <span>
+                <div
+                    class="flex flex-col justify-evenly w-80 h-[16.125rem] items-center hover:scale-110 transition-all">
+                    <span class="bg-[#f7fafc] w-16 h-16 flex items-center justify-center rounded-full">
                         <img class="w-8" src="./images/icons/controls.svg" alt="icon">
                     </span>
                     <span class="font-bold text-xl">
@@ -108,13 +113,32 @@
                         We strictly only deal with vendors that provide top notch security.
                     </p>
                     <span>
-                        <a href="#">Learn More</a>
+                        <a class="text-[#8344ff] hover:text-[#53417a] transition-all" href="#">Learn More <img
+                                class="w-4 h-4 inline" src="./images/icons/arrow.svg" alt="arrow"></a>
                     </span>
                 </div>
             </div>
         </section>
+        <section class="container-xl w-full h-[53.8125rem] px-12 py-20">
+            <div class="flex flex-col justify-between w-full">
+                <div class="flex flex-row justify-between">
+                    <h2>Popular Hotels</h2>
+                    <div>
+                        <button>prev</button>
+                        <button>next</button>
+                    </div>
+                </div>
+                <div></div>
+        </section>
     </main>
     <footer></footer>
+
+    <!-- libs -->
+    <link rel="stylesheet" href="./libs/slick/slick.css">
+    <link rel="stylesheet" href="./libs/slick/slick-theme.css">
+    <script src="./libs/jquery.js"></script>
+    <script src="./libs/slick/slick.min.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
