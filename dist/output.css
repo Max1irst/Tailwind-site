@@ -567,20 +567,28 @@ a {
           text-decoration-skip-ink: auto;
 }
 
+h2 {
+  font-weight: 900;
+  letter-spacing: 0.025em;
+  color: #3a5173;
+  font-size: 3rem;
+  line-height: 1.25;
+}
+
 .m-6 {
   margin: 1.5rem;
 }
 
-.mt-8 {
-  margin-top: 2rem;
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .mt-4 {
   margin-top: 1rem;
 }
 
-.mr-12 {
-  margin-right: 3rem;
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .inline {
@@ -635,16 +643,8 @@ a {
   height: 4.6875rem;
 }
 
-.h-\[\] {
-  height: ;
-}
-
 .h-\[46\.6875rem\] {
   height: 46.6875rem;
-}
-
-.h-\[26\.68rem\] {
-  height: 26.68rem;
 }
 
 .h-80 {
@@ -653,6 +653,18 @@ a {
 
 .h-12 {
   height: 3rem;
+}
+
+.h-\[52\.06rem\] {
+  height: 52.06rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-\[54\.5rem\] {
+  height: 54.5rem;
 }
 
 .w-full {
@@ -703,6 +715,14 @@ a {
   width: 26.68rem;
 }
 
+.w-\[33rem\] {
+  width: 33rem;
+}
+
+.w-1\/3 {
+  width: 33.333333%;
+}
+
 .w-2\/3 {
   width: 66.666667%;
 }
@@ -713,6 +733,10 @@ a {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -727,10 +751,6 @@ a {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
 .justify-evenly {
   justify-content: space-evenly;
 }
@@ -743,16 +763,12 @@ a {
   gap: 2.5rem;
 }
 
-.gap-2 {
-  gap: 0.5rem;
+.gap-24 {
+  gap: 6rem;
 }
 
 .gap-1 {
   gap: 0.25rem;
-}
-
-.gap-24 {
-  gap: 6rem;
 }
 
 .scroll-smooth {
@@ -834,6 +850,11 @@ a {
   padding-bottom: 6rem;
 }
 
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -849,14 +870,9 @@ a {
   padding-bottom: 1.5rem;
 }
 
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pl-12 {
@@ -899,6 +915,14 @@ a {
   padding-left: 0.5rem;
 }
 
+.pl-20 {
+  padding-left: 5rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -928,6 +952,11 @@ a {
   line-height: 1.25rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-black {
   font-weight: 900;
 }
@@ -942,10 +971,6 @@ a {
 
 .font-medium {
   font-weight: 500;
-}
-
-.font-normal {
-  font-weight: 400;
 }
 
 .tracking-wide {
@@ -1040,16 +1065,6 @@ a {
 .hover\:bg-\[\#d3cadb\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(211 202 219 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-\[\#7b64aa\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(123 100 170 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-\[\#6d64aa\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(109 100 170 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-\[\#6958da\]:hover {

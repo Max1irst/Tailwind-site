@@ -10,4 +10,12 @@
     a {
         text-decoration-skip-ink: auto;
     }
+
+    h2 {
+        font-weight: 900;
+        letter-spacing: 0.025em;
+        color: #3a5173;
+        font-size: 3rem;
+        line-height: 1.25;
+    }
 }
