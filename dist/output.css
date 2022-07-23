@@ -596,6 +596,10 @@ h5 {
   margin-top: 2rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .inline {
   display: inline;
 }
@@ -672,6 +676,10 @@ h5 {
   height: 54.5rem;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -736,6 +744,14 @@ h5 {
   width: 33.333333%;
 }
 
+.w-64 {
+  width: 16rem;
+}
+
+.w-20 {
+  width: 5rem;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -784,8 +800,8 @@ h5 {
   gap: 3rem;
 }
 
-.gap-20 {
-  gap: 5rem;
+.gap-8 {
+  gap: 2rem;
 }
 
 .scroll-smooth {
@@ -857,18 +873,6 @@ h5 {
   background-position: center;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
-.p-20 {
-  padding: 5rem;
-}
-
-.p-12 {
-  padding: 3rem;
-}
-
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -902,6 +906,11 @@ h5 {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-28 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 .pl-12 {
@@ -954,6 +963,30 @@ h5 {
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
 }
 
 .text-center {
@@ -1105,10 +1138,6 @@ h5 {
   background-color: rgb(105 88 218 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-auto:hover {
-  background-size: auto;
-}
-
 .hover\:text-\[\#8344ff\]:hover {
   --tw-text-opacity: 1;
   color: rgb(131 68 255 / var(--tw-text-opacity));
@@ -1122,11 +1151,6 @@ h5 {
 .hover\:text-\[\#604797\]:hover {
   --tw-text-opacity: 1;
   color: rgb(96 71 151 / var(--tw-text-opacity));
-}
-
-.hover\:text-\[\#6415ff\]:hover {
-  --tw-text-opacity: 1;
-  color: rgb(100 21 255 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
