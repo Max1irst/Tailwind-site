@@ -604,6 +604,10 @@ h5 {
   margin-top: 1.5rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .inline {
   display: inline;
 }
@@ -766,6 +770,10 @@ h5 {
 
 .w-\[33\.31rem\] {
   width: 33.31rem;
+}
+
+.w-\[33\.33rem\] {
+  width: 33.33rem;
 }
 
 .flex-row {
