@@ -588,6 +588,10 @@ h5 {
   margin: 1.5rem;
 }
 
+.m-10 {
+  margin: 2.5rem;
+}
+
 .mt-20 {
   margin-top: 5rem;
 }
@@ -602,6 +606,10 @@ h5 {
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .inline {
@@ -700,18 +708,6 @@ h5 {
   height: 3.44rem;
 }
 
-.h-\[\] {
-  height: ;
-}
-
-.h-\[26\] {
-  height: 26;
-}
-
-.h-\[26\.56\] {
-  height: 26.56;
-}
-
 .h-\[26\.56rem\] {
   height: 26.56rem;
 }
@@ -802,6 +798,10 @@ h5 {
 
 .w-\[10\.60rem\] {
   width: 10.60rem;
+}
+
+.w-\[2rem\] {
+  width: 2rem;
 }
 
 .flex-row {
