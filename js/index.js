@@ -30,4 +30,8 @@ $(document).ready(function () {
         focusOnSelect: true
       });
       
+
+      $('dt').click(function(){
+        $('dd').toggleClass('hidden')
+      })
 });

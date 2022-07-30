@@ -588,10 +588,6 @@ h5 {
   margin: 1.5rem;
 }
 
-.m-10 {
-  margin: 2.5rem;
-}
-
 .mt-20 {
   margin-top: 5rem;
 }
@@ -618,6 +614,10 @@ h5 {
 
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-\[38\.75rem\] {
@@ -963,6 +963,11 @@ h5 {
   background-color: rgb(26 32 44 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1202,6 +1207,16 @@ h5 {
 .text-\[\#c8d1d7\] {
   --tw-text-opacity: 1;
   color: rgb(200 209 215 / var(--tw-text-opacity));
+}
+
+.text-\[\#fff\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .underline-offset-\[0\.7rem\] {
