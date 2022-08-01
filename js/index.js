@@ -3,6 +3,8 @@ $(document).ready(function () {
     // $('button').click(function () {
     //     $('div').removeClass('flex');
     // });
+
+    // slick-sliders
     $('.slick-slader').slick({
         dots: true,
         infinite: true,
@@ -28,6 +30,15 @@ $(document).ready(function () {
         asNavFor: '.slider-for',
         arrows: true,
         focusOnSelect: true
+      });
+
+      $('.products-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        fade: true,
+        autoplay: true,
+        autoplaySpeed: 3000
       });
       
 
