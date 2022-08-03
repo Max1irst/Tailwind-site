@@ -580,20 +580,8 @@ h5 {
   font-weight: 700;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
-}
-
-.bottom-10 {
-  bottom: 2.5rem;
-}
-
-.bottom-16 {
-  bottom: 4rem;
 }
 
 .bottom-14 {
@@ -728,16 +716,28 @@ h5 {
   height: 26.56rem;
 }
 
-.h-40 {
-  height: 10rem;
-}
-
-.h-56 {
-  height: 14rem;
-}
-
 .h-52 {
   height: 13rem;
+}
+
+.h-\[22\.56rem\] {
+  height: 22.56rem;
+}
+
+.h-\[20\.56rem\] {
+  height: 20.56rem;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[40rem\] {
+  height: 40rem;
 }
 
 .w-full {
@@ -830,6 +830,10 @@ h5 {
 
 .w-\[2rem\] {
   width: 2rem;
+}
+
+.w-1\/4 {
+  width: 25%;
 }
 
 .flex-row {
@@ -1244,16 +1248,8 @@ h5 {
   text-underline-offset: 8px;
 }
 
-.opacity-5 {
-  opacity: 0.05;
-}
-
 .opacity-90 {
   opacity: 0.9;
-}
-
-.opacity-95 {
-  opacity: 0.95;
 }
 
 .transition-all {
