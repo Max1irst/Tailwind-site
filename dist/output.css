@@ -728,6 +728,12 @@ h5 {
   height: 16.56rem;
 }
 
+.min-h-min {
+  min-height: -webkit-min-content;
+  min-height: -moz-min-content;
+  min-height: min-content;
+}
+
 .w-full {
   width: 100%;
 }
