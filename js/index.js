@@ -8,6 +8,7 @@ $(document).ready(function () {
     $('.slick-slader').slick({
         dots: true,
         infinite: true,
+        arrows: false,
         speed: 300,
         slidesToShow: 1,
         centerMode: false,
@@ -35,7 +36,6 @@ $(document).ready(function () {
       $('.products-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: true,
         fade: true,
         autoplay: true,
         autoplaySpeed: 3000
