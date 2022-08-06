@@ -612,6 +612,10 @@ h5 {
   margin-top: 1.5rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .inline {
   display: inline;
 }
@@ -636,8 +640,8 @@ h5 {
   height: 100%;
 }
 
-.h-\[40rem\] {
-  height: 40rem;
+.h-\[32rem\] {
+  height: 32rem;
 }
 
 .h-\[26\.56rem\] {
@@ -726,10 +730,6 @@ h5 {
 
 .h-\[3\.44rem\] {
   height: 3.44rem;
-}
-
-.h-\[32rem\] {
-  height: 32rem;
 }
 
 .min-h-min {
