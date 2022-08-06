@@ -25,7 +25,7 @@
     }
 }
 
-.slick-next{
+.slick-next {
     position: absolute;
     left: 1162px;
     top: 280px;
@@ -34,7 +34,7 @@
     height: 40px;
 }
 
-.slick-prev{
+.slick-prev {
     position: absolute;
     left: 1062px;
     top: 280px;
