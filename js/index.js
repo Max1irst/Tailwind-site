@@ -12,8 +12,35 @@ $(document).ready(function () {
     speed: 300,
     slidesToShow: 1,
     centerMode: false,
-    variableWidth: true
-
+    variableWidth: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          dots: true,
+          infinite: true,
+          arrows: false,
+          speed: 300,
+          slidesToShow: 2,
+          centerMode: false,
+          variableWidth: true,
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   })
   $('.slider-for').slick({
     slidesToShow: 1,
