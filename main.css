@@ -23,6 +23,19 @@
         font-size: 1.25rem;
         font-weight: 700;
     }
+
+    .t-navbar {
+        @apply opacity-90 pb-10 pl-2 flex flex-row justify-between items-center transition-all;
+    }
+
+    .t-navbar-item {
+        @apply text-[#667892] font-semibold tracking-wide hover:underline underline-offset-[0.7rem] hover:text-[#8344ff] transition-all;
+    }
+
+    .logo {
+        @apply w-[2.5rem] border-0 border-solid border-[#e5e7eb];
+    }
+
 }
 
 .slick-next {
