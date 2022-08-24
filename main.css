@@ -36,6 +36,17 @@
         @apply w-[2.5rem] border-0 border-solid border-[#e5e7eb];
     }
 
+    .info-box {
+        @apply flex flex-col justify-evenly w-80 h-[16.125rem] items-center hover:scale-110 transition-all;
+    }
+
+    .hotel-card{
+        @apply m-6 flex flex-col justify-between h-[35.0625rem] w-96 border rounded-tl-[2.5rem] rounded-br-[3rem] text-[#3a5173];
+    }
+
+    .hotel-card__btn{
+        @apply text-xl text-center rounded-br-3xl bg-[#6415ff] text-[#f7fafc] w-96 h-[4.6875rem] mt-4 hover:bg-[#6958da] transition-all;
+    }
 }
 
 .slick-next {
