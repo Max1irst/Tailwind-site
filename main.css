@@ -28,7 +28,7 @@
         @apply opacity-90 pb-10 pl-2 flex flex-row justify-between items-center transition-all;
     }
 
-    .t-navbar-item {
+    .t-navbar-items li {
         @apply text-[#667892] font-semibold tracking-wide hover:underline underline-offset-[0.7rem] hover:text-[#8344ff] transition-all;
     }
 
